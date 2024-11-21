@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: black;
+            color: white;
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            /* 
+                width + padding + border = actual width of an element
+                height + padding + border = actual height of an element
+            */
+        }
+        h1{
+            text-align: center;
+        }
+        div{
+            margin: 15px;
+            padding: 50px;
+            border: solid 1px;
+            width: 500px;
+            height: 200px;
+        }
+        span{
+            /* This is in default display inline but we can convert to block */
+            border: 2px solid;
+            margin: 50px;
+            padding: 10px;
+            display: block;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Hello, Guru Pruthvi!</h1>
+    </div>
+    <span>
+        <!-- the span uses display "inline" property so it tries to display all the element in the same line -->
+        How are you?
+    </span>
+    <span>
+        This is Guru Pruthvi...
+    </span>
+</body>
+</html>
