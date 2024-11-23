@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background-color: #e19e9e;
+}
+div{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    background-color: chocolate;
+}
+
+div:hover{
+    transform: rotate(360deg) scale(1.5) skew(30deg);
+}

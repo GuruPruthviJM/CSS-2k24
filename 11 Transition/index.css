@@ -1,0 +1,22 @@
+div{
+    width: 250px;
+    height: 250px;
+    background-color: chocolate;
+    text-align: center;
+    line-height: 250px; /* center in vertiical */
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 1ms;
+}
+
+div:hover{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+div:active{
+    background-color: black;
+    color: white;
+}
