@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 0;
+    height: 100vh;
+    background-color: #e19e9e;
+}
+div{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+    /* transition: all;
+    transition-duration: 100000s;
+    transition-timing-function: ease-in; */
+    position: absolute;
+    background-color: chocolate;
+    border-radius: 50%;
+}
+
+@keyframes colorAnimate {
+    from {background-color: aquamarine; left: 0px;}
+    to {background-color: red; left: 200px;}
+}
+
+div:hover{
+    animation-name: colorAnimate;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: rev;
+}

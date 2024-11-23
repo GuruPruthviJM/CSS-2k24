@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    color: white;
+}
+@keyframes rotateCircle {
+    from { transform: rotate(0);}
+    to {transform: rotate(360deg);}
+}
+div{
+    width: 250px;
+    height: 250px;
+    border: solid white 20px;
+    border-top: 20px solid rgb(74, 126, 238);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 250px;
+    background-color: chocolate;
+    position: absolute;
+    animation-name: rotateCircle;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
